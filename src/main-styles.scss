@@ -1,0 +1,24 @@
+
+
+// import google fonts
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Sono:wght@400;700&display=swap');
+
+$family-sans-serif: 'Montserrat', sans-serif;
+
+//update bulma`s var
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+
+// global styles
+
+html, body{
+  height: 100%;
+}
+
+html{
+
+}
+
