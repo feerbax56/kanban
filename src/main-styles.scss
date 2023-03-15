@@ -1,5 +1,3 @@
-
-
 // import google fonts
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Sono:wght@400;700&display=swap');
@@ -14,11 +12,14 @@ $input-shadow: none;
 
 // global styles
 
-html, body{
+html, body {
   height: 100%;
 }
 
-html{
+html {
+  background-image: url("./src/assets/background.svg");
+  background-size: cover;
 
+  overflow-y: auto !important;
 }
 
