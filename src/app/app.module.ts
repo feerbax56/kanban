@@ -5,7 +5,7 @@ import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {MainViewComponent} from './pages/main-view/main-view.component';
 import {BoardComponent} from './models/board/board.component';
-import {CdkDropList} from '@angular/cdk/drag-drop';
+import {CdkDropList, CdkDropListGroup, DragDropModule} from '@angular/cdk/drag-drop';
 
 @NgModule({
   declarations: [
@@ -17,6 +17,8 @@ import {CdkDropList} from '@angular/cdk/drag-drop';
     BrowserModule,
     AppRoutingModule,
     CdkDropList,
+    CdkDropListGroup,
+    DragDropModule
 
   ],
   providers: [],

@@ -2,10 +2,11 @@ import { Component } from '@angular/core';
 import {CdkDragDrop, moveItemInArray, transferArrayItem} from '@angular/cdk/drag-drop';
 
 
+
 @Component({
   selector: 'app-main-view',
   templateUrl: './main-view.component.html',
-  styleUrls: ['./main-view.component.scss']
+  styleUrls: ['./main-view.component.scss'],
 })
 export class MainViewComponent {
   todo = ['Get to work', 'Pick up groceries', 'Go home', 'Fall asleep'];
