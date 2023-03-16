@@ -15,18 +15,31 @@
 
     <div class="board-wrapper">
       <div class="board-columns">
-        <div class="board-column">
-          <div class="column-title">
+
+
+        <div class="board-column"
+             cdkDropList
+             #todoList="cdkDropList"
+             [cdkDropListData]="todo"
+             [cdkDropListConnectedTo]="[todoList]"
+             (cdkDropListDropped)="drop($event)"
+        >
+
+
+          <div class="column-title" >
             In first
           </div>
           <div class="task-container">
+            <div class="task" cdkDrag>
+              пришить хвост ослику
+            </div>
             <div class="task">
               пришить хвост ослику
-            </div><div class="task">
+            </div>
+            <div class="task">
               пришить хвост ослику
-            </div><div class="task">
-              пришить хвост ослику
-            </div><div class="task">
+            </div>
+            <div class="task">
               пришить хвост ослику
             </div>
             <div class="task">
